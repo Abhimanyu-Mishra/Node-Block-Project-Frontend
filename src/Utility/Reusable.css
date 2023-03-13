@@ -1,0 +1,36 @@
+.card-main{
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+.card1{
+    width: 40%;
+    padding: 10px;
+}
+.descrp{
+    width: 50%;
+}
+img{
+     border-radius: 20px;
+}
+.title{
+    font-size:'1.6em';
+    font-weight: 700;
+    color: rgb(8, 61, 43);
+}
+.link{
+    text-decoration: none;
+}
+
+
+@media only  screen and (max-width:450px) {
+    img{
+      height: 90%;   
+    }
+    .p{
+        font-size: 0.5em;
+    }
+    .title{
+        font-size: 0.7em;
+    }
+}

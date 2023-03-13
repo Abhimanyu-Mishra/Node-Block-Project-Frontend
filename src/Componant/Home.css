@@ -1,0 +1,53 @@
+.maindiv{
+    display: flex;
+    margin: 2%;
+}
+.sub1{
+    width: 68%;
+    border-radius: 15px;
+    margin: 1%;
+    border-radius: 15px;
+}
+.sub2{
+    width: 28%;
+}
+.mini1{
+    border-radius: 15px;
+    margin: 1%;
+    height: 50%;
+}
+.mini2{
+    border-radius: 15px;
+    margin: 1%; 
+    height: 47%;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1%;
+    
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width:500px){
+    .maindiv{
+        display: block;
+        margin: 1%;
+    }
+    .sub1{
+        width: 98%;
+        
+    }
+    .sub2{
+        width: 98%;
+    }
+    .flex{
+        display: block;
+        width: 98%;
+    }
+}
+
+    
